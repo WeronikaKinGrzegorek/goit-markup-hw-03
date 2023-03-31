@@ -72,6 +72,10 @@ ul {
 .link:focus {
     color: var(--text-color-blue);
 }
+.contact-links-layout {
+    display: flex;
+    gap: 50px;
+}
 .contact-links {
     font-weight: 500;
     font-size: 14px;
@@ -84,14 +88,10 @@ ul {
 .contact-links:focus {
     color: var(--text-color-blue);
 }
-.contact-links-layout {
-    display: flex;
-    gap: 50px;
-}
 
 /* sekcja główna */
 
-.background {
+.background-header {
     background-color: var(--background-color-dark);
     padding-top: 200px;
     padding-bottom: 200px;
@@ -206,6 +206,11 @@ ul {
 
 /* Footer */
 
+.background-footer {
+    background-color: var(--background-color-dark);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 .studio {
     color: var(--text-color-white);
 }
@@ -228,6 +233,8 @@ ul {
     background-color: var(--background-color-dark);
     text-decoration: none;
     font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
 }
 .email {
     text-decoration-line: underline;
